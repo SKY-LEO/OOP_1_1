@@ -1,8 +1,8 @@
 package People;
 
 public class Person {
-    public String fullName;
-    public int age;
+    String fullName;
+    int age;
 
     public Person() {
 
@@ -30,11 +30,11 @@ public class Person {
     }
 
     public void talk() {
-        System.out.print(fullName + " говорит: ");
+        System.out.print(this.fullName + " говорит: ");
     }
 
     public void move() {
-        System.out.println("мне " + age + " лет");
+        System.out.println("мне " + this.age + " лет");
     }
 }
 
